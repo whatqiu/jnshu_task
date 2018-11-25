@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+.container{
+    margin: 0 auto;
+    width: auto;
+}
+.block{
+    width: 31.33%;
+    padding-top: 30%;
+    margin: 1%;
+    background-color: orange;
+    border-radius: 5%;
+    float: left;
+=======
+.container{
+    margin: 0 auto;
+    width: auto;
+}
+.block{
+    width: 31.33%;
+    padding-top: 30%;
+    margin: 1%;
+    background-color: orange;
+    border-radius: 5%;
+    float: left;
+>>>>>>> a8159d034d177d21ea7bdd935d99b0fb9a55760d
+}
