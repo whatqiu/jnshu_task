@@ -1,5 +1,6 @@
 body{
     background-color: rgb(239,240,244);
+    width: 100%;
 }
 header{
     background-color: rgb(95,192,205);
@@ -7,12 +8,13 @@ header{
     color: white;
     font-weight: bold;
     width: 98%;
-    padding: 1%;
+    padding: 10px;
     top: 0;
     left: 0;
 }
 .sign{
     float: left;
+    padding-left: 1%;
 }
 .login{
     position: fixed;
@@ -34,10 +36,18 @@ header{
 .lgN{
     position: relative;
     right: 0;
-    width: 100%;
+    outline: none;
+    border: 0;
+    padding-left: 12px;
+    margin-top: 20px;
+    border-left: solid #6e9eff 0.5px;
 }
 .lgP{
-    width: 100%;
+    outline: none;
+    border: 0;
+    margin-top: 20px;
+    border-left: solid #6e9eff 0.5px;
+    padding-left: 12px;
 }
 .forget{
     position: absolute;
