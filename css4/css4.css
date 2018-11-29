@@ -23,11 +23,12 @@ header{
 }
 .login_{
     background-color: rgb(95,192,205);
-    position: absolute;
+    position: fixed;
     width: 100%;
     margin-top: 0.5rem;
     color: white;
     text-align: center;
+
 }
 .close{
     position: relative;

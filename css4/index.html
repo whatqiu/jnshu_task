@@ -3,33 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="css4.css">
+    <!--<link rel="stylesheet" href="css4.css">-->
+    <link rel="stylesheet" href="no.css">
 
     <title>登陆页面</title>
 </head>
 <body>
     <header>
+        <!--非float元素在先,那么float的元素将被排斥-->
         <span class="sign">注册</span>
-        <span class="login">登陆</span>
         <span class="close">关闭</span>
+        <div class="login">登陆</div>
+
     </header>
 
-
-    <div style="display: flex;position: relative;margin-top: 50px">
-        <input type="image" src="images/number.png"  >
-            <div style="width: 100%; background-color: white">
-                <input type="tel" class="lgN" maxlength="11"  placeholder="请输入手机号码">
-            </div>
+    <div style="padding: 10px;background-color: white;margin-top: 19px;width: 100%;">
+        <div style="display: flex;">
+            <input type="image" src="images/p.png"  >
+                <div style="background-color: white;width: 100%">
+                    <input type="tel" class="lgN" maxlength="11"  placeholder="请输入手机号码">
+                </div>
+        </div>
     </div>
 
-    <div style="display: flex; margin-top: 10px">
-        <input type="image" src="images/pasword.png" ">
-            <div style="width: 100%; background-color: white">
-                <input type="password" class="lgP"  placeholder="请输入密码" ">
-            </div>
+    <div style="padding: 10px;background-color: white;margin-top: 10px;width: 100%; ">
+
+        <div style="display: flex;">
+
+            <input type="image" src="images/m.png" >
+
+                <div style=" background-color: white;width: 100%">
+                    <input type="password" class="lgP"  placeholder="请输入密码">
+                </div>
+
+        </div>
+
     </div>
 
-    <span class="login_" >登&nbsp;&nbsp陆</span>
-    <span class="forget">忘记密码</span>
+
+    <div class="login_" >登&nbsp;&nbsp;陆</div>
+    <div class="forget">忘记密码</div>
 </body>
 </html>
