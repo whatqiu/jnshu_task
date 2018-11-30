@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+        <!--子绝父相,懂不？-->
         <!--非float元素在先,那么float的元素将被排斥-->
         <span class="sign">注册</span>
         <span class="close">关闭</span>
@@ -17,31 +18,29 @@
 
     </header>
 
-    <div style="padding: 10px;background-color: white;margin-top: 19px;">
-        <div style="display: flex;">
-            <input type="image" src="images/p.png"  >
-                <div style="background-color: white;width: 100%">
-                    <input type="tel" class="lgN" maxlength="11"  placeholder="请输入手机号码">
-                </div>
+
+        <div class="lg">
+            <div style="padding: 10px;background-color: white">
+                <input type="image" src="images/p.png" height="32px" >
+            </div>
+                    <div style="background-color: white;width: 100%">
+                        <input type="tel" class="lgN" maxlength="11"  placeholder="请输入手机号码" >
+                    </div>
         </div>
-    </div>
 
-    <div style="padding: 10px;background-color: white;margin-top: 10px;">
 
-        <div style="display: flex;">
-
-            <input type="image" src="images/m.png" >
-
-                <div style=" background-color: white;width: 100%">
+        <div class="lg">
+            <div style="padding: 10px;background-color: white">
+            <input type="image" src="images/m.png" height="32px">
+            </div>
+                    <div style="background-color: white;width: 100%">
                     <input type="password" class="lgP"  placeholder="请输入密码">
-                </div>
-
+                    </div>
+            </div>
         </div>
-
-    </div>
-
 
     <div class="login_" >登&nbsp;&nbsp;陆</div>
-    <div class="forget">忘记密码</div>
+    <div class="forget">忘记密码?</div>
+
 </body>
 </html>
