@@ -41,10 +41,11 @@ header div{
 }
 .msg span:first-child{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 .msg span:last-child{
     padding: 5px;
+    font-size: 16px;
 }
 .bg-location {
     display: flex;
