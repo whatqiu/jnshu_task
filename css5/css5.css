@@ -93,6 +93,7 @@ footer{
     display: flex;
     bottom: 0;
     width: 100%;
+    background-color: #ffffff;
 }
 footer div{
     width: 48%;
@@ -102,6 +103,6 @@ footer div{
     text-align: center;
     border-radius: 5px ;
 }
-.foo{
-    padding: 1rem;
+.intro{
+    padding-bottom: 10rem;
 }
