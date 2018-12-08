@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    background-color: rgb(95,192,205);
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+.b{
+    float: left;
+    transform: scale(1,2);
+}
+header img{
+    height: 24px;
+    float: left;
+    padding-left: 10px;
+}
+header div{
+    text-align: center;
+}
+
+.container{
+    height: 15rem;
+    background-image: url("images/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 41px;
+    color: #ffffff;
+}
+.bg-head {
+    float: left;
+    padding: 1rem;
+}
+.msg{
+    padding-top: 3rem;
+}
+.msg span:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+.msg span:last-child{
+    padding: 5px;
+}
+.bg-location {
+    display: flex;
+ }
+
+.separator{
+    border: solid #5fc3d0 1px;
+    margin: 0 1rem;
+    padding: 8px 0;
+}
+.intro ul{
+    color: rgb(153,153,153);
+    list-style: none;
+}
+
+.skill span{
+    margin-top: 5px;
+}
+li{
+    border-bottom: #e1e5e7 solid thin;
+    padding: 0.7rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+li span{
+    color: #000000;
+    text-align: left;
+}
+.item{
+    color: #5fc3d0;
+    flex-shrink: 0;
+}
+
+.message{
+    color: #5fc3d0;
+    background-color: #ffffff;
+}
+.call{
+    color: white;
+    background-color: #5fc3d0;
+}
+
+footer{
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+}
+footer div{
+    width: 48%;
+    margin: 5px;
+    padding: 10px;
+    border: solid #5fc3d0 1px;
+    text-align: center;
+    border-radius: 5px ;
+}
+.foo{
+    padding: 1rem;
+}
