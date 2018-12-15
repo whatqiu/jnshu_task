@@ -12,14 +12,19 @@ header{
 .head_top{
     background-color: #5fc0cd;
 }
+.menu-r{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #55a8b3;
+    border-right: 2px solid #55a8b3;
+    transform: rotate(45deg);
+    right: 15px;
+}
 .head_list{
-    background-color: #ffffff;
+    display: flex;
     padding: 5px;
     border-bottom: thin #b9dde2 solid;
-    color: #5fc0cd;
-}
-.dropdown-menu{
-
 }
 .title{
     text-align: center;
@@ -53,9 +58,6 @@ header{
     background: url('images/css_sprites.png') -64px -10px;
     transform: scale(0.7);
 }
-.btn-group:hover{
-    display: ;
-}
 footer{
     width: 100%;
     display: flex;
@@ -80,13 +82,16 @@ footer span{
 .instr{
     border-bottom: thin #b9dde2 solid;
 }
+.btn{
+    color: #5fc0cd;
+;
+}
 
 .instr_date{
     color: #000000;
     padding-left: 34px;
 }
 .price{
-    float: right;
     margin-right: 8px;
     font-size: medium;
     color: #ff0000;
@@ -94,6 +99,9 @@ footer span{
 .instr div{
     align-items: center;
     color: #5fc3d0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .edit{
     border-radius: 50%;
