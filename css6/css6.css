@@ -21,6 +21,16 @@ header{
     transform: rotate(45deg);
     right: 15px;
 }
+
+.dropdown{
+    width: 33%;
+    text-align: center;
+}
+@media screen and (max-width: 266px ){
+    .d-flex{
+        display: block!important;
+    }
+}
 .head_list{
     display: flex;
     padding: 5px;
@@ -84,7 +94,6 @@ footer span{
 }
 .btn{
     color: #5fc0cd;
-;
 }
 
 .instr_date{
