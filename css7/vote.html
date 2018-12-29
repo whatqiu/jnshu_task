@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- 新 Bootstrap4 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js">
+    </script>
+    <!-- popper.min.js 用于弹窗、提示、下拉菜单 -->
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js">
+    </script>
+    <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js">
+    </script>
+    <script src="css7.js">
+    </script>
+    <link rel="stylesheet" href="css7_1.css">
+    <title>
+        游戏结果
+    </title>
+</head>
+
+<body>
+<header>
+    <a href="">
+        <img src="images/menu1.png" alt="">
+    </a>
+    <span>
+                投票
+            </span>
+    <img src="images/close.png" alt="">
+</header>
+<div class="vote">
+    <div class="vote_1 align-items-center">
+                <span>
+                    发言讨论结束，大家请投票
+                </span>
+        <img src="images/play.png" class="playMusic" id="music_btn" onclick="autoPlay()">
+        <!--<button class="playMusic" id="music_btn" onclick="autoPlay()"></button>-->
+        <audio id="bgMusic" src="1.mp3" loop="loop">
+        </audio>
+    </div>
+    <br>
+    <span class="text-white" style="padding-left: 5rem">
+                点击得票数最多人的头像
+            </span>
+    <div class="row justify-content-around vote_2">
+        <div class="box">
+            <div class="box1">
+                水民
+            </div>
+            <div class="box2">
+                1号
+            </div>
+            <div class="vote_3">
+                <div class="bg-1">
+                </div>
+                <div class="bg-2">
+                </div>
+                <div class="bg-3">
+                </div>
+                <div class="bg-4">
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                水民
+            </div>
+            <div class="box2">
+                2号
+            </div>
+            <div class="vote_3">
+                <div class="bg-1">
+                </div>
+                <div class="bg-2">
+                </div>
+                <div class="bg-3">
+                </div>
+                <div class="bg-4">
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                警察
+            </div>
+            <div class="box2">
+                3号
+            </div>
+            <div class="vote_3">
+                <div class="bg-1">
+                </div>
+                <div class="bg-2">
+                </div>
+                <div class="bg-3">
+                </div>
+                <div class="bg-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-around vote_2">
+        <div class="box">
+            <div class="box1">
+                法官
+            </div>
+            <div class="box2">
+                4号
+            </div>
+            <div class="vote_3">
+                <div class="bg-1">
+                </div>
+                <div class="bg-2">
+                </div>
+                <div class="bg-3">
+                </div>
+                <div class="bg-4">
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                狙击手
+            </div>
+            <div class="box2">
+                5号
+            </div>
+            <div class="vote_3">
+                <div class="bg-1">
+                </div>
+                <div class="bg-2">
+                </div>
+                <div class="bg-3">
+                </div>
+                <div class="bg-4">
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                医生
+            </div>
+            <div class="box2">
+                6号
+            </div>
+            <div class="vote_3">
+                <div class="bg-1">
+                </div>
+                <div class="bg-2">
+                </div>
+                <div class="bg-3">
+                </div>
+                <div class="bg-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-around vote_2">
+        <div class="box">
+            <div class="box1">
+                水民
+            </div>
+            <div class="box2">
+                7号
+            </div>
+            <div class="vote_3">
+                <div class="bg-1">
+                </div>
+                <div class="bg-2">
+                </div>
+                <div class="bg-3">
+                </div>
+                <div class="bg-4">
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                水民
+            </div>
+            <div class="box2">
+                8号
+            </div>
+            <div class="vote_3">
+                <div class="bg-1">
+                </div>
+                <div class="bg-2">
+                </div>
+                <div class="bg-3">
+                </div>
+                <div class="bg-4">
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                水民
+            </div>
+            <div class="box2">
+                9号
+            </div>
+            <div class="vote_3">
+                <div class="bg-1">
+                </div>
+                <div class="bg-2">
+                </div>
+                <div class="bg-3">
+                </div>
+                <div class="bg-4">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="justify-content-center align-items-center">
+    <a href="#" class="btn btn-danger justify-content-center align-items-center kill">
+        投死
+    </a>
+</footer>
+</body>
+
+</html>

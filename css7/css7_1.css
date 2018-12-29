@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #6e9eff;
+    padding-bottom: 8rem;
+}
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #6e9eff;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    z-index: 1;
+}
+header span {
+    padding-top: 10px;
+}
+header img {
+    padding: 10px;
+}
+.vote {
+    padding-top: 70px;
+}
+.vote_1 {
+    display: flex;
+    position: relative;
+    height: 4rem;
+    justify-content: space-between;
+    background-color: #b9e3ed;
+    color: #23a9c8;
+}
+.playMusic {
+    margin-right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+.vote_1 span {
+    padding-left: 2rem;
+}
+.vote_1:after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    top:3.5rem;
+    left: 5rem;
+    border-top-width: 25px!important;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #b9e3ed transparent transparent;
+}
+.vote_2 {
+    text-align: center;
+    display: flex;
+    padding-bottom: 40px;
+    margin: 2px;
+}
+.box {
+    position: relative;
+    border: 5px solid #ffffff;
+    display: block;
+    width: 22vw;
+    height: 22vw;
+    margin: 10px;
+}
+.box:hover .vote_3{
+    display: flex!important;
+}
+.box1 {
+    display: grid;
+    align-items: center;
+    font-size: 5vw;
+    height: 80%;
+    background-color: #f5c97b;
+}
+.box2 {
+    display: grid;
+    align-items: center;
+    font-size: 2vw;
+    height: 20%;
+    color: #ffffff;
+    background: #83b09a;
+}
+.vote_3 {
+    position: absolute;
+    width: 20vw;
+    display: none;
+    justify-content: space-between;
+    bottom: -45px;
+}
+.bg-1 {
+    width: 29px;
+    height: 28px;
+    background: url('images/css_sprites.png') -60px -59px;
+}
+.bg-2 {
+    width: 30px;
+    height: 29px;
+    background: url('images/css_sprites.png') -10px -59px;
+}
+.bg-3 {
+    width: 31px;
+    height: 29px;
+    background: url('images/css_sprites.png') -10px -10px;
+}
+.bg-4 {
+    width: 30px;
+    height: 29px;
+    background: url('images/css_sprites.png') -61px -10px;
+}
+footer {
+    padding: 1rem;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    background-color: #6e9eff;
+}
+
+
+.kill {
+    display: flex;
+    width: 50vw;
+    height: 10vw;
+    font-size: 4vw;
+    border: 0;
+    background-color: #fbb435;
+}
+.win{
+    padding: 5rem 5rem 1rem 5rem;
+}
+.win1{
+    position: absolute;
+    margin-top: 24vw;
+    display: flex;
+    font-size: 5vw;
+    height: 10rem;
+    width:100%;
+    color: #ffffff;
+}
+.congra{
+    font-size: 5vw;
+    color: #fbb435;
+}
+.detail{
+    font-size: 3vw;
+    text-overflow: ellipsis;
+    padding-top: 20px;
+    width: 100%;
+}
+.detail_1{
+    padding:15px;
+}
+.gc{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #6e9eff;
+}
+.gc-1{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.footer_1{
+    bottom: 0;
+    padding: 1.5rem;
+    width: 100%;
+    background: rgb(110,158,255,0.6);
+    position: fixed;
+    display: flex;
+}
+.f1,.f2{
+    padding: 1rem;
+    color: #ffffff;
+}
