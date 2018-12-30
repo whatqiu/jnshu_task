@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: #6e9eff;
+    background-color: #29bde0;
     padding-bottom: 8rem;
 }
 header {
@@ -11,7 +11,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: #6e9eff;
+    background-color: #29bde0;
     text-align: center;
     font-size: 30px;
     color: #ffffff;
@@ -71,7 +71,7 @@ header img {
     margin: 10px;
 }
 .box:hover .vote_3{
-    display: flex!important;
+    display: contents!important;
 }
 .box1 {
     display: grid;
@@ -90,38 +90,58 @@ header img {
 }
 .vote_3 {
     position: absolute;
-    width: 20vw;
+    width: 100%;
     display: none;
-    justify-content: space-between;
     bottom: -45px;
 }
-.bg-1 {
-    width: 29px;
-    height: 28px;
-    background: url('images/css_sprites.png') -60px -59px;
-}
-.bg-2 {
-    width: 30px;
-    height: 29px;
-    background: url('images/css_sprites.png') -10px -59px;
-}
-.bg-3 {
-    width: 31px;
-    height: 29px;
-    background: url('images/css_sprites.png') -10px -10px;
-}
-.bg-4 {
-    width: 30px;
-    height: 29px;
-    background: url('images/css_sprites.png') -61px -10px;
-}
+
+/*横版的雪碧图*/
+/*.bg-4 {*/
+    /*width: 30px; height: 29px;*/
+    /*background: url('images/css_sprites (2).png') -59px -10px;*/
+/*}*/
+/*.bg-1 {*/
+    /*width: 29px; height: 28px;*/
+    /*background: url('images/css_sprites (2).png') -10px -10px;*/
+/*}*/
+/*.bg-2 {*/
+    /*width: 30px; height: 29px;*/
+    /*background: url('images/css_sprites (2).png') -109px -10px;*/
+/*}*/
+/*.bg-3 {*/
+    /*width: 31px; height: 29px;*/
+    /*background: url('images/css_sprites (2).png') -159px -10px;*/
+/*}*/
+
+
+/*雪碧图测试屏幕太小时会重叠*/
+/*.bg-1 {*/
+    /*width: 29px;*/
+    /*height: 28px;*/
+    /*background: url('images/css_sprites.png') -60px -59px;*/
+/*}*/
+/*.bg-2 {*/
+    /*width: 30px;*/
+    /*height: 29px;*/
+    /*background: url('images/css_sprites.png') -10px -59px;*/
+/*}*/
+/*.bg-3 {*/
+    /*width: 31px;*/
+    /*height: 29px;*/
+    /*background: url('images/css_sprites.png') -10px -10px;*/
+/*}*/
+/*.bg-4 {*/
+    /*width: 30px;*/
+    /*height: 29px;*/
+    /*background: url('images/css_sprites.png') -61px -10px;*/
+/*}*/
 footer {
     padding: 1rem;
     position: fixed;
     display: flex;
     bottom: 0;
     width: 100%;
-    background-color: #6e9eff;
+    background-color: #29bde0;
 }
 
 
