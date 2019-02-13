@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f8f9fa;
+}
+.p-30{
+    padding: 2.5rem 0;
+}
+.tel-word{
+    float: left;
+}
+.img-wrap{
+    height: 40px;
+    padding-top: 5px;
+    text-align: right;
+}
+.weixin-share{
+    background: url("images/wechat.jpg") no-repeat;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+.weibo-share{
+    background: url("images/weibo.jpg") no-repeat;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+.qq-share{
+    background: url("images/qq.jpg") no-repeat;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+.row{
+    margin: 0;
+}
+.container .row{
+    line-height: 36px;
+}
+.header-nav{
+    background-color: #29b078;
+    height: 64px;
+}
+.header-nav a{
+    color: #ffffff;
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.nav-title li :hover{
+    border-bottom: solid 4px #ffffff;
+}
+
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.nav-bar-title{
+    position: absolute;
+    right: 5rem;
+    line-height: 60px;
+}
+.nav-title{
+    display: flex;
+    list-style: none;
+}
+.home-tag{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.home-tag p{
+    font-size: 16px;
+    color: #999999;
+}
+.home-tag-num{
+    border-left: dashed 1px #26a26f;
+    font-size: 20px;
+    color: #26a26f;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.home-tag-img{
+    height: 90px;
+}
+.study-num{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    line-height: 70px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    -webkit-box-shadow: 3px 2px 2px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 2px 2px 0px rgba(0,0,0,0.5);
+    box-shadow: 3px 2px 2px 0px rgba(0,0,0,0.5);
+    background-color: #ffffff;
+}
+.w{
+    color: #999999;
+}
+.intro{
+    text-indent: 3rem;
+}
+.baba{
+    display: flex;
+    justify-content: center;
+    margin: 1px 3px;
+    overflow: hidden;
+    transition: all 0.6s;
+}
+.baba :hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 2px #d3d3d3;
+}
+.card-img{
+    width: 100px;
+    height: 100px;
+}
+.card p{
+    font-size: 14px;
+}
+.dots{
+    position: relative;
+    padding-top: 50px;
+}
+.dots li{
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+}
+.dots .active{
+    background-color: #29b078;
+}
+.job-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: #29b078;
+}
+.job-choice{
+    padding: 6px 12px;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.job-choice button:hover{
+    color: #ffffff;
+    background-color: #29b078;
+}
+.job-list a{
+    color: #29b078;
+}
+.job-img{
+    float: left;
+    margin-left: 15px;
+    max-width: 138px;
+    border: 1px solid #e8e8e8;
+}
+.table-fuck{
+    position: relative;
+    overflow: hidden;
+}
+.table-look{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    color: #ffffff;
+    text-align: center;
+    opacity: 0.7;
+    background: rgb(61,61,61);
+}
+.table-fuck:hover .table-look{
+    left: 0;
+    transition: left 1.5s;
+}
+td{
+    padding: 10px;
+}
+td i{
+    display: inline-block;
+    background: url("images/star.png") no-repeat ;
+    width: 19px;
+    height: 16px;
+}
+.salary{
+    text-align: right;
+    color: #ff0000;
+}
+.salary-s{
+    display: flex;
+    justify-content: space-between;
+    border: 0!important;
+}
+footer{
+    padding-top: 20px;
+    color: #ffffff;
+    background-color: #29b078;
+}
+footer a{
+    font-size: 14px;
+    color: #ffffff;
+}
+.footer-link a{
+    padding: 0 5px;
+}
+.footer-f{
+    padding: 10px;
+    color: white;
+    background-color: #29b078;
+    width: 100%;
+    border-top: #35d996 2px solid ;
+}
+.wrap-path{
+    padding: 20px;
+}
+.wrap-path a{
+    color: #000000;
+}
+
+.nav-company-list a{
+    color: #999999;
+    font-size: 14px;
+}
+li i{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fbb435;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.nav-company-list li{
+    padding-bottom: 20px;
+    list-style: none;
+}
+li:hover i{
+    background-color: #fbb435;
+}
+.nav-company-list :hover {
+    color: #fbb435;
+    text-decoration: none;
+}
+
+
+@media screen and(max-width: 990px){
+
+}
