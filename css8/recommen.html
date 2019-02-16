@@ -14,11 +14,11 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="hidden-xs col-md-4 ">
+        <div class="hidden-xs col-6 ">
             <span class='tel-word'>咨询电话 : 010-59478634 </span>
         </div>
 
-        <div class="hidden-xs col-md-8">
+        <div class="hidden-xs col-6">
             <div class="img-wrap">
                 <a href="#">
                     <div class="weixin-share"></div>
@@ -35,24 +35,30 @@
 
 </div>
 
-<div class="nav header-nav">
-    <div class="nav nav-bar-title">
-        <ul class="nav-title">
-            <li class="col-md-">
+<nav class="nav header-nav">
+    <a href="index.html"><img src="images/logo.png" height="62"></a>
+    <button type="button" data-toggle="collapse" data-target="#collapseNav" aria-expanded="false">
+        <img src="images/menu.png" alt="换导航">
+    </button>
+    <!--换导航模式-->
+    <div class=" nav nav-bar-title collapse" id="collapseNav" >
+        <ul class="nav-title nav-bar-nav">
+            <li>
                 <a href="index.html">首页</a>
             </li>
-            <li class="col-md-">
-                <a href="job.html ">职业</a>
+            <li>
+                <a href="job.html">职业</a>
             </li>
-            <li class="col-md-">
+            <li>
                 <a href="recommen.html">推荐</a>
             </li>
-            <li class="col-md-">
+            <li>
                 <a href="#">关于</a>
             </li>
         </ul>
     </div>
-</div>
+</nav>
+
 <div>
     <img src="images/neitui.jpg" width="100%">
 </div>
@@ -119,16 +125,14 @@
             </ul>
         </div>
         <div class="col-md-9 ">
-            <div class="w bg-white border d-flex" style="padding: 2rem;">
-                <div style="display: flex; align-items: center;padding-right: 20px">
+            <div class="w bg-white border" style="padding: 2rem;">
                     <img src="images/tudou.png">
-                </div>
-                <span>
+                <small style="padding-left: 20px">
                     土豆网公司成立于1998年11月， 是目前中国最大的互联网综合服务提供商之一，也是中国
                     服务用户最多的互联网企业之一。成立10多年以来，腾讯一直秉承一切以用户价值为依归的
                     经营理念，始终处于稳健、高速发展的状态。2004年6月16日，腾讯公司在香港联交所主板
                     公开上市（股票代号700）。
-                </span>
+                </small>
             </div>
             <div class="w intro p-30 bg-white w-100 border" style="padding: 2rem;">
                 <div class="intro">土豆是中国最早和最具影响力的网络视频平台，是中国网络视频行业的领军品牌。其前身土豆网于2005年4月15日</spa>
@@ -172,29 +176,31 @@
 
 <footer>
     <div class="container d-flex">
-        <div class="col-4">
-            <h5>技能树-改变你我</h5>
-            <br>
-            <a href="#">关于我们</a>
-            |
-            <a href="#">联系我们</a>
-            |
-            <a href="#">合作企业</a>
-        </div>
-        <div class="col-5">
-            <h5>旗下网站</h5>
-            <br>
-            <div class="footer-link">
-                <a href="#">草船云孵化器</a>
-                <a href="#">最强it特训营</a>
-                <a href="#">葡萄藤轻游戏</a>
-                <a href="#">桌游精灵</a>
+        <div class="row">
+            <div class="col-sm-5 col-xs-12">
+                <h5>技能树-改变你我</h5>
+                <br>
+                <a href="#">关于我们</a>
+                |
+                <a href="#">联系我们</a>
+                |
+                <a href="#">合作企业</a>
             </div>
-        </div>
+            <div class="col-sm-5 col-xs-12">
+                <h5>旗下网站</h5>
+                <br>
+                <div class="footer-link">
+                    <a href="#">草船云孵化器</a>
+                    <a href="#">最强it特训营</a>
+                    <a href="#">葡萄藤轻游戏</a>
+                    <a href="#">桌游精灵</a>
+                </div>
+            </div>
 
-        <div class="col-3">
-            <h5>公众号平台</h5>
-            <img src="images/qr-code.png" alt="">
+            <div class="col-sm-2 col-xs-12">
+                <h5>公众号平台</h5>
+                <img src="images/qr-code.png" alt="">
+            </div>
         </div>
     </div>
 </footer>

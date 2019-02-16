@@ -41,8 +41,8 @@ body{
     line-height: 36px;
 }
 .header-nav{
+    position: relative;
     background-color: #29b078;
-    height: 64px;
 }
 .header-nav a{
     color: #ffffff;
@@ -61,12 +61,15 @@ body{
 }
 .nav-bar-title{
     position: absolute;
-    right: 5rem;
-    line-height: 60px;
+    right: 2rem;
+    text-align: center;
+    display: flex;
+    line-height: 58px;
 }
 .nav-title{
     display: flex;
     list-style: none;
+    transition: bottom 1s;
 }
 .home-tag{
     padding-top: 70px;
@@ -121,6 +124,9 @@ body{
     width: 100px;
     height: 100px;
 }
+.card{
+    margin-bottom: 20px;
+}
 .card p{
     font-size: 14px;
 }
@@ -165,6 +171,7 @@ body{
     border: 1px solid #e8e8e8;
 }
 .table-fuck{
+    margin-bottom: 20px;
     position: relative;
     overflow: hidden;
 }
@@ -188,6 +195,7 @@ body{
     transition: left 1.5s;
 }
 td{
+    text-overflow: ellipsis;
     padding: 10px;
 }
 td i{
@@ -218,6 +226,7 @@ footer a{
     padding: 0 5px;
 }
 .footer-f{
+    font-size: 12px;
     padding: 10px;
     color: white;
     background-color: #29b078;
@@ -242,9 +251,12 @@ li i{
     display: inline-block;
     border-radius: 50%;
 }
-
+.nav-company{
+    margin-bottom: 20px;
+}
 .nav-company-list li{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     list-style: none;
 }
 li:hover i{
@@ -254,8 +266,30 @@ li:hover i{
     color: #fbb435;
     text-decoration: none;
 }
+nav button{
+    display: none;
+    position: absolute;
+    right: 1rem;
+    top: 10px;
+}
 
-
-@media screen and(max-width: 990px){
-
+@media screen and (max-width: 768px){
+    nav button{
+        display: block;
+    }
+    .nav-bar-title{
+        position: relative;
+        flex-basis: 100%;
+        display: none;
+        right: 0;
+        flex-direction: column;
+    }
+    .nav-title{
+        display: block;
+    }
+}
+@media screen and (max-width: 480px){
+    .hidden-xs{
+        display: none;
+    }
 }
