@@ -1,0 +1,121 @@
+header{
+    background-color: #1d7ad9;
+    line-height: 50px;
+    color: #fff;
+}
+
+.header-login div{
+    cursor: pointer;
+    padding: 0 15px;
+}
+.header-login :hover{
+    background-color: #fff;
+    color: #000;
+}
+.nav{
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.btn{
+    margin: 0 10px;
+    background-color: #fff;
+    color: #000;
+    border: transparent;
+    box-shadow: 0 0 1px 0 #000000;
+}
+.circle{
+    position: absolute;
+    left: 67px;
+    width: 14px;
+    height: 14px;
+    top: -3px;
+    line-height: 14px;
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 50%;
+    background-color: #e9ecef;
+}
+.container-progress{
+    color: #e9ecef;
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+}
+.progress-line {
+    position: relative;
+    width: 150px;
+    height: 5px;
+    background-color: #e9ecef;
+}
+.pro :hover{
+    background-color: #fbb435;
+}
+.pro :hover .circle{
+    background-color: #fbb435;
+}
+.pro :hover .progress-word{
+    color: #fbb435;
+}
+.progress-word{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+.container-progress{
+    display: flex;
+}
+
+.box-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+select{
+    color: #5fc0cd;
+    padding: 3px 25px 3px 5px;
+    background: url("images/select.png") no-repeat right ;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.box-head{
+    font-size: 1.5rem;
+    border-left: solid 3px #1d7ad9;
+    padding-left: 10px;
+}
+
+.box-box-head{
+    font-size: 20px;
+    padding: 3px;
+    color: #1d7ad9;
+    background-color: #f9f9f9;
+}
+.box-content div{
+    padding-right: 10px;
+}
+.box-size{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.box-size span{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.btn-danger{
+    width: 150px;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+footer{
+    padding: 0 20px;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    text-align: center;
+    align-items: center;
+}
