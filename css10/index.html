@@ -59,26 +59,34 @@
 
 <div class="container-progress">
     <div class="pro">
-        <div class="progress-line">
-            <div class="circle">1</div>
+        <div class="progress-wrap">
+            <div class="progress-line">
+                <div class="circle">1</div>
+            </div>
             <div class="progress-word">1.定制纸箱</div>
         </div>
     </div>
     <div class="pro">
-        <div class="progress-line">
-            <div class="circle">2</div>
+        <div class="progress-wrap">
+            <div class="progress-line">
+                <div class="circle">2</div>
+            </div>
             <div class="progress-word">2.选择数量</div>
         </div>
     </div>
     <div class="pro">
-        <div class="progress-line">
-            <div class="circle">3</div>
+        <div class="progress-wrap">
+            <div class="progress-line">
+                <div class="circle">3</div>
+            </div>
             <div class="progress-word">3.上传附件</div>
         </div>
     </div>
     <div class="pro">
-        <div class="progress-line">
-            <div class="circle">4</div>
+        <div class="progress-wrap">
+            <div class="progress-line">
+                <div class="circle">4</div>
+            </div>
             <div class="progress-word">4.确认订单</div>
         </div>
     </div>
@@ -94,16 +102,20 @@
             <span>选择箱型</span>
         </div>
 
-        <div class="box-content d-flex border">
-            <div class="col-2">
-                <input type="radio" name="box">对口箱
+        <div class="box-content border align-items-center">
+            <div class="d-flex box-box">
+                <div >
+                    <input type="radio" name="box" checked>
+                    <label for="1">对口箱</label>
+                </div>
+                <div >
+                    <input type="radio" name="box">飞机盒
+                </div>
+                <div >
+                    <input type="radio" name="box">天地盖
+                </div>
             </div>
-            <div class="col-2">
-                <input type="radio" name="box">飞机盒
-            </div>
-            <div class="col-2">
-                <input type="radio" name="box">天地盖
-            </div>
+
             <div>
                 <select name="detail">
                     <option value="detail">查看详情</option>
@@ -179,8 +191,8 @@
             <img src="images/texture.png" alt="">
             <span>选择材质</span>
         </div>
-        <div class="box-content d-flex">
-            <div class="d-flex  align-items-center ">
+        <div class="box-content align-items-center">
+            <div class="align-items-center d-flex box-box">
                 <div>
                     <input type="radio" name="texture">A瓦优质
                 </div>

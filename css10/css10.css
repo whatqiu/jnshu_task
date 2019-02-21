@@ -43,20 +43,14 @@ header{
     text-align: center;
     justify-content: flex-end;
 }
-.progress-line {
+.progress-wrap {
     position: relative;
+    cursor: pointer;
+}
+.progress-line{
     width: 150px;
     height: 5px;
     background-color: #e9ecef;
-}
-.pro :hover{
-    background-color: #fbb435;
-}
-.pro :hover .circle{
-    background-color: #fbb435;
-}
-.pro :hover .progress-word{
-    color: #fbb435;
 }
 .progress-word{
     position: absolute;
@@ -65,6 +59,15 @@ header{
 }
 .container-progress{
     display: flex;
+}
+.pro :hover .progress-line{
+    background-color: #fbb435;
+}
+.pro :hover .circle{
+    background-color: #fbb435;
+}
+.pro :hover .progress-word{
+    color: #fbb435;
 }
 
 .box-content{
@@ -81,6 +84,32 @@ select{
     -moz-appearance: none;
     appearance: none;
 }
+
+input[type='radio']{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+
+    border: 1px solid #999;
+    transition: 0.2s all linear;
+    outline: none;
+    margin-right: 3px;
+
+    position: relative;
+    top: 2px;
+}
+input:checked{
+    background-color: #1d7ad9;
+}
+label {
+    margin-right: 15px;
+    line-height: 32px;
+}
+
 .box-head{
     font-size: 1.5rem;
     border-left: solid 3px #1d7ad9;
@@ -102,7 +131,6 @@ select{
     margin-bottom: 20px;
 }
 .box-size span{
-    display: flex;
     align-items: center;
     padding-right: 20px;
 }
@@ -118,4 +146,22 @@ footer{
     background-color: #f9f9f9;
     text-align: center;
     align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .progress-line{
+        width: 94px;
+    }
+    .circle{
+        left: 40px;
+    }
+    .progress-word{
+        font-size: small;
+    }
+    .box-head{
+        margin-top: 50px;
+    }
+    .box-size,.nav,.box-box{
+        flex-direction: column;
+    }
 }
