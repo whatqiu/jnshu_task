@@ -6,7 +6,7 @@ header{
 
 .header-login div{
     cursor: pointer;
-    padding: 0 15px;
+    padding: 0 14px;
 }
 .header-login :hover{
     background-color: #fff;
