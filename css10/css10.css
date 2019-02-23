@@ -91,23 +91,21 @@ input[type='radio']{
     appearance: none;
 
     border-radius: 50%;
-    width: 1rem;
-    height: 1rem;
+    width: 10px;
+    height: 10px;
 
     border: 1px solid #999;
     transition: 0.2s all linear;
     outline: none;
+    background-color: rgba(209, 209, 209, 0.93);
     margin-right: 3px;
 
     position: relative;
-    top: 2px;
+    top: -1px;
 }
 input:checked{
-    background-color: #1d7ad9;
-}
-label {
-    margin-right: 15px;
-    line-height: 32px;
+    border: 3px solid #1d7ad9;
+    background-color: #fff;
 }
 
 .box-head{
@@ -127,7 +125,7 @@ label {
 }
 .box-size{
     display: flex;
-    justify-content: space-between;
+    justify-content: spae-between;
     margin-bottom: 20px;
 }
 .box-size span{
