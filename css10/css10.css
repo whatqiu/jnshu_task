@@ -125,7 +125,7 @@ input:checked{
 }
 .box-size{
     display: flex;
-    justify-content: spae-between;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 .box-size span{
@@ -159,7 +159,22 @@ footer{
     .box-head{
         margin-top: 50px;
     }
+    .box-size span{
+        padding-bottom: 10px;
+    }
     .box-size,.nav,.box-box{
         flex-direction: column;
+    }
+}
+@media screen and (max-width: 480px){
+    .progress-line{
+        width: 64px;
+    }
+    .circle{
+        left: 25px;
+    }
+    .progress-word{
+        left: 10px;
+        font-size: small;
     }
 }
