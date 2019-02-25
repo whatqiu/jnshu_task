@@ -1,0 +1,114 @@
+@blue: #5FC0CD;
+@text-color: #fff;
+@line-color: #000;
+@left-float:{
+  float: left;
+};
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  color: @text-color;
+  background-color: @blue;
+}
+header div{
+  text-align: center;
+}
+.b{
+  @left-float();
+  transform: scale(1,2);
+}
+header img{
+  height: 24px;
+  @left-float();
+  padding-left: 10px;
+}
+.container{
+  height: 15rem;
+  background-image: url("images/back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 41px;
+  color: @text-color;
+}
+.bg-head {
+  @left-float();
+  padding: 1rem;
+}
+.msg{
+  padding-top: 3rem;
+}
+.msg span:first-child{
+  font-weight: bold;
+  font-size: 18px;
+}
+.msg span:last-child{
+  padding: 5px;
+  font-size: 16px;
+}
+.bg-location {
+  display: flex;
+  align-items: center;
+}
+.separator{
+  border: solid #5fc3d0 1px;
+  margin: 0 1rem;
+  padding: 8px 0;
+}
+.intro ul{
+  color: @blue;
+  list-style: none;
+}
+skill{
+  margin: 0;
+}
+li{
+  border-bottom: #e1e5e7 solid thin;
+  padding: 0.7rem;
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+li span{
+  color: @line-color;
+  text-align: left;
+}
+.item{
+  color: @blue;
+  flex: none;
+}
+.message{
+  color: @blue;
+  background-color: @text-color;
+}
+.call{
+  color: @text-color;
+  background-color: @blue;
+}
+footer{
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  background-color: @text-color;
+}
+footer div{
+  width: 48%;
+  margin: 5px;
+  padding: 10px;
+  border: solid @blue 1px;
+  text-align: center;
+  border-radius: 5px ;
+}
+
+.intro{
+  padding-bottom: 10rem;
+}

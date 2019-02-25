@@ -1,111 +1,105 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
-
-header{
-    position: fixed;
-    background-color: rgb(95,192,205);
-    width: 100%;
-    color: white;
-    padding: 10px;
+header {
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  background-color: #5FC0CD;
 }
-.b{
-    float: left;
-    transform: scale(1,2);
+header div {
+  text-align: center;
 }
-header img{
-    height: 24px;
-    float: left;
-    padding-left: 10px;
+.b {
+  float: left;
+  transform: scale(1, 2);
 }
-header div{
-    text-align: center;
+header img {
+  height: 24px;
+  float: left;
+  padding-left: 10px;
 }
-
-.container{
-    height: 15rem;
-    background-image: url("images/back.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    padding-top: 41px;
-    color: #ffffff;
+.container {
+  height: 15rem;
+  background-image: url("images/back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 41px;
+  color: #fff;
 }
 .bg-head {
-    float: left;
-    padding: 1rem;
+  float: left;
+  padding: 1rem;
 }
-.msg{
-    padding-top: 3rem;
+.msg {
+  padding-top: 3rem;
 }
-.msg span:first-child{
-    font-weight: bold;
-    font-size: 18px;
+.msg span:first-child {
+  font-weight: bold;
+  font-size: 18px;
 }
-.msg span:last-child{
-    padding: 5px;
-    font-size: 16px;
+.msg span:last-child {
+  padding: 5px;
+  font-size: 16px;
 }
 .bg-location {
-    display: flex;
-    align-items: center;
- }
-
-.separator{
-    border: solid #5fc3d0 1px;
-    margin: 0 1rem;
-    padding: 8px 0;
+  display: flex;
+  align-items: center;
 }
-.intro ul{
-    color: rgb(153,153,153);
-    list-style: none;
+.separator {
+  border: solid #5fc3d0 1px;
+  margin: 0 1rem;
+  padding: 8px 0;
 }
-
-.skill{
-    margin: 0;
+.intro ul {
+  color: #5FC0CD;
+  list-style: none;
 }
-
-li{
-    border-bottom: #e1e5e7 solid thin;
-    padding: 0.7rem;
-    width: 90%;
-    display: flex;
-    align-items: center;
+skill {
+  margin: 0;
 }
-li span{
-    color: #000000;
-    text-align: left;
+li {
+  border-bottom: #e1e5e7 solid thin;
+  padding: 0.7rem;
+  width: 90%;
+  display: flex;
+  align-items: center;
 }
-.item{
-    color: #5fc3d0;
-    flex-shrink: 0;
+li span {
+  color: #000;
+  text-align: left;
 }
-
-.message{
-    color: #5fc3d0;
-    background-color: #ffffff;
+.item {
+  color: #5FC0CD;
+  flex: none;
 }
-.call{
-    color: white;
-    background-color: #5fc3d0;
+.message {
+  color: #5FC0CD;
+  background-color: #fff;
 }
-
-footer{
-    position: fixed;
-    display: flex;
-    bottom: 0;
-    width: 100%;
-    background-color: #ffffff;
+.call {
+  color: #fff;
+  background-color: #5FC0CD;
 }
-footer div{
-    width: 48%;
-    margin: 5px;
-    padding: 10px;
-    border: solid #5fc3d0 1px;
-    text-align: center;
-    border-radius: 5px ;
+footer {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
 }
-.intro{
-    padding-bottom: 10rem;
+footer div {
+  width: 48%;
+  margin: 5px;
+  padding: 10px;
+  border: solid #5FC0CD 1px;
+  text-align: center;
+  border-radius: 5px ;
 }
+.intro {
+  padding-bottom: 10rem;
+}
+/*# sourceMappingURL=css5.css.map */
